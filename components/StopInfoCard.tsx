@@ -30,7 +30,7 @@ export default function StopInfoCard({ targetStop, eta, onFindNearest }: StopInf
         <div className="sc-selected-stop">
           <div className="sc-icon">🚏</div>
           <div className="sc-stop-name">
-            {targetStop ? (targetStop.nameTh || targetStop.name) : "คลิกเลือกป้ายรถเมล์บนแผนที่"}
+            {targetStop ? (targetStop.nameTh || targetStop.name) : "คลิกเลือกป้ายบนแผนที่"}
           </div>
         </div>
         
