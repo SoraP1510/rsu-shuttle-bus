@@ -15,7 +15,7 @@
 - **Framework:** [Next.js](https://nextjs.org/) (App Router)
 - **Language:** [TypeScript](https://www.typescriptlang.org/)
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/) / CSS Modules
-- **Map:** [Leaflet](https://leafletjs.com/) (แผนที่จาก CartoDB / OpenStreetMap)
+- **Map:** [Leaflet](https://leafletjs.com/) (แผนที่จาก OpenStreetMap)
 - **Real-time Communication:** [Socket.io-client](https://socket.io/)
 - **Routing API:** OSRM (Open Source Routing Machine)
 
