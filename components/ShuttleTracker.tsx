@@ -9,7 +9,7 @@ import { RSU_CENTER } from "../constants";
 import { useLeafletMap } from "../hooks/useLeafletMap";
 import AvailabilityCard from "./AvailabilityCard";
 import StopInfoCard from "./StopInfoCard";
-import { shouldMove, animateMove, getNearestPointIndex } from "../utils/mapHelpers";
+import { shouldMove, animateMove, getNearestPointIndex } from "../utils/MapHelpers";
 import { Stop, Vehicle, LocationUpdateData } from "../types";
 
 export default function ShuttleTracker() {
