@@ -146,14 +146,14 @@ export default function ShuttleTracker() {
     let nearest: Stop | null = null;
     let minDst = Infinity;
 
-    currentStops.forEach((stop) => {
+    for (const stop of currentStops) {
       const stopLatLng = L.latLng(stop.lat, stop.lng);
       const dst = userLatLng.distanceTo(stopLatLng);
       if (dst < minDst) {
         minDst = dst;
         nearest = stop;
       }
-    });
+    }
 
     if (nearest && mapRef.current) {
       setTargetStop(nearest);
